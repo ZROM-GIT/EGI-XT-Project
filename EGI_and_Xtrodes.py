@@ -77,9 +77,8 @@ xtrodes_data=xtrodes_file['events']
 xtrodes_1 = xtrodes_data[(0,0)]
 '''
 # %%NOW WE WILL OPEN THE XTRODES FILE
-# via matlab file
 
-
+print("hi")
 folder = conf["Path_xt"]
 xtrodes_fname = 'data.mat'
 xtrodes_events_fname = 'events.mat'
